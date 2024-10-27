@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"
+</head>
+<body>
+    <!-- navbar -->
+     <nav><nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CIJAD GARBAGE COLLECTORS' REGISTRATION</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Garbage collectors">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Traininings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Awards</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav></nav>
+    <!-- form -->
+    <form class= containermt4 id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="text" id="contact" required>
+
+        <label for="area">Area of Operation:</label>
+        <input type="text" id="area" required>
+
+        <label for="days">Collection Days:</label>
+        <select id="days" required>
+            <option value="Monday-Friday">Monday-Friday</option>
+            <option value="Weekends">Weekends</option>
+            <option value="Everyday">Everyday</option>
+        </select>
+
+        <button type="submit">Register Collector</button>
+    </form>
+<!-- table -->
+ <table>
+    <table class="table container mt5">
+        <thead class="container table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Contact Number</th>
+            <th scope="col">Area of Operation</th>
+          </tr>
+        </thead>
+        <tbody id="body">
+          <tr>
+            
+          </tr>
+        </tbody>
+      </table>
+ </table>
+<script src="/project/Server/index.js"></script>
+</body>
+</html>

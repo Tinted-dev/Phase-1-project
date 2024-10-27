@@ -1,0 +1,37 @@
+{
+  "garbageCollectors": [
+    {
+      "id": "4",
+      "name": "Urban Sanitation Solutions",
+      "location": "East End"
+    },
+    {
+      "id": "4263",
+      "name": "Dennis",
+      "contact": "0729698288",
+      "area": "NgongRoad",
+      "days": "Monday-Friday"
+    },
+    {
+      "id": "9a5f",
+      "name": "Dennis",
+      "contact": "0729698288",
+      "area": "NgongRoad",
+      "days": "Monday-Friday"
+    },
+    {
+      "id": "cbc4",
+      "name": "Mathu",
+      "contact": "982171",
+      "area": "Nyandarua",
+      "days": "Monday-Friday"
+    },
+    {
+      "id": "5008",
+      "name": "Mathu",
+      "contact": "0729698288",
+      "area": "NgongRoad",
+      "days": "Monday-Friday"
+    }
+  ]
+}
